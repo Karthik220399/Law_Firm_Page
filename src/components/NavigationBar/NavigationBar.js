@@ -17,8 +17,8 @@ export default function NavigationBar(){
               <a href="#"><div>Practice Areas</div></a>
               <a href="#"><div>About Us</div></a>
            </div>
-
-              <button className={styles.contactButton}>Contact Now</button>
+            
+           <button className={styles.contactButton}>Contact Now</button>
 
         </div>
     )

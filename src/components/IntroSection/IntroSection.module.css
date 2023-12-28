@@ -1,0 +1,45 @@
+.wrapper{
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.header{
+    font-weight: 600;
+    font-size: 54px;
+    width: 387px;
+    text-align: start;
+}
+
+.criminal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 475px;
+    padding-left: 50px;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+    color: var(--color-white);
+    opacity: 30%;
+}
+
+.line{
+    position: relative;
+    top: -15px;
+    right: -50px;
+}

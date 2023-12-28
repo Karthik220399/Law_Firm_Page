@@ -15,11 +15,11 @@ export default function HeroSection (){
   return (
     <div className={styles.herowrapper}>
        <div className={styles.heading}>
-            <p className={styles.first}>You don’t have to </p>
+            <p className={styles.first}>You don’t have to</p>
             <p className={styles.second}>Fight them Alone.</p>
-            <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,</p>
-            <p className={styles.para}>curabitur sodales conubia ut inceptos faucibus himenaeos tortor</p>
-            <p className={styles.para}> eget, hac massa gravida arcu interdum proin curae.</p>
+            <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
+             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
+             eget, hac massa gravida arcu interdum proin curae.</p>
             <div className={styles.emailSection}>
                 <input className={styles.input}  placeholder="Enter your eamil address" />
                 <button className={styles.talk}> Let's Talk</button>

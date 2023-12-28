@@ -1,0 +1,14 @@
+.wrapper{
+    height: 551px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+}
+
+.header{
+    font-weight: 600;
+    font-size: 54px;
+    margin-bottom: 90px;
+}

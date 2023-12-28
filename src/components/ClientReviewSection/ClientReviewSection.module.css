@@ -1,0 +1,28 @@
+.wrapper{
+    height: 626px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+}
+
+.leftrightbutton {
+    width: 90.61;
+    height: 90.61;
+    background-color: var(--color-grey);
+    border: none;
+}
+.header{
+   font-weight: 600;
+   font-size: 54px;
+   width: 374px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.buttonsection{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}

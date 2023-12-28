@@ -1,0 +1,26 @@
+.imgDiv{
+    width: 101px;
+    height: 101px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.wrapper{
+  text-align: start;
+}
+
+.content{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 25px;
+    opacity: 30%;
+}
+.ceo{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.name{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
