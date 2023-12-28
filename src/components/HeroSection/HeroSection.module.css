@@ -1,0 +1,77 @@
+
+.herowrapper{
+    display: flex;
+    height: 580px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 575px;
+    margin-top: 52px;
+}
+.imgConatiner{
+    width: 467.71px;
+    height: 544px;
+    overflow: hidden;
+    position: relative;
+    bottom:0px;
+    right: 0px;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.first{
+    font-weight: 500;
+    font-size: 66px;
+
+}
+.second{
+    font-weight: 700;
+    font-size: 66px;
+    margin-bottom: 30px;
+
+}
+.para{
+    font-size: 18px;
+    opacity: 30%;
+}
+.emailSection{
+    width: 438px;
+    height: 74px;
+    background-color: var(--color-black);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 43px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.input{
+    width: 301px;
+    height: 100%;
+    padding: 20px;
+    border-left: none;
+    background-color: bisque;
+    border-right: none;
+    border:5px solid bisque ;
+}
+.input:focus{
+    outline: none;
+}
+.talk{
+    width: 137px;
+    height: 100%;
+    border-radius: 43px;
+    border-right: none;
+    background-color: var(--color-primary);
+    border:5px solid bisque ;
+    border-left: none;
+}

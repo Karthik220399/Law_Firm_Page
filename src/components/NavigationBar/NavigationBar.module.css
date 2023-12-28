@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 431px;
+    height: 26px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.logo{
+    width: 143px;
+    height: 30.3px;
+}
+
+
+.contactButton{
+    width: 172px;
+    height: 47px; 
+   border: 1px solid var(--color-white);
+   background-color: var(--color-black);
+   color: var(--color-white);
+}
