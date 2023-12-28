@@ -1,0 +1,65 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 200px;
+    height: 356px;
+    background-color: rgba(71, 71, 71, 0.5);
+}
+.title{
+    font-weight: 500;
+    font-size: 55px;
+    margin-bottom: 42px;
+}
+.inputSection{
+    width: 686px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    height: 100%;
+    width: 276px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.name::placeholder{
+    font-family: "Helvetica Now Display";
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.email::placeholder{
+    font-family: "Helvetica Now Display";
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.email:focus{
+    outline: none;
+    border: none;
+}
+.name:focus{
+    outline: none;
+    border: none;
+}
+
+.email{
+    height: 100%;
+    width: 276px;
+}
+
+.sendButton{
+    height: 100%;
+    width: 116px;
+    background-color: var(--color-primary);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+}
