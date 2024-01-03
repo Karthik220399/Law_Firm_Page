@@ -13,7 +13,7 @@ import Faq from './components/FAQ/Faq';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <Header/>
       <IntroSection/>
       <ChooseUs/>
