@@ -17,22 +17,22 @@ export default function TeamSection(){
             </div>
             <div>
             <Grid container spacing={2}>
-                    <Grid item lg={4}>
-                       <TeamCard image={Photo2} name="Danial Def" cases="301"/>
+                    <Grid item md={6} lg={4}>
+                       <TeamCard image={Photo1} name="Danial Def" cases="301"/>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid item md={6} lg={4}>
                        <TeamCard isMain image={Photo2} name="Sanfole" cases="850"/>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid item md={6} lg={4}>
                       <TeamCard image={Photo3} name="Cesforila" cases="470"/>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid item md={6} lg={4}>
                        <TeamCard image={Photo4} name="Colleen" cases="180"/>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid item md={6} lg={4}>
                        <TeamCard image={Photo5} name="Haldone" cases="212"/>
                     </Grid>
-                    <Grid item lg={4}>
+                    <Grid item md={6} lg={4}>
                       <TeamCard image={Photo6} name="Nik Jeo" cases="350"/>
                     </Grid>
                 </Grid>

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Footer.module.css"
-import NavigationBar from "../NavigationBar/NavigationBar";
 import { ReactComponent as Insta } from "../../assets/Insta.svg";
 import { ReactComponent as X } from "../../assets/X.svg";
 import { ReactComponent as Facebook } from "../../assets/Facebook.svg";

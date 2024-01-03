@@ -1,7 +1,8 @@
 .wrapper{
     padding-left: 10%;
     padding-right: 10%;
-     padding-top: 136px;
+     padding-top: 108px;
+     padding-bottom: 108px;
      background-color: var(--color-black);
      height: 367px;
   }
@@ -27,6 +28,7 @@
     align-items: center;
     width: 548px;
     height: 26px;
+    flex-wrap: wrap;
 }
 
 .socialMedia{
@@ -34,6 +36,7 @@
     justify-content: space-between;
     width: 187px;
     align-items: center;
+    flex-wrap: wrap;
  }
  
 .logo{

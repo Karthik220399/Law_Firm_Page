@@ -7,6 +7,7 @@ import ChooseUs from './components/ChooseUs/ChooseUs';
 import ClientReviewSection from './components/ClientReviewSection/ClientReviewSection';
 import TeamSection from './components/TeamSection/TeamSection';
 import NewsLetter from './components/NewsLetter/NewsLetter';
+import AreaofPractice from './components/AreaofPractice/AreaofPractice';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Header/>
       <IntroSection/>
       <ChooseUs/>
+      <AreaofPractice/>
       <ClientReviewSection/>
       <TeamSection/>
       <NewsLetter/>

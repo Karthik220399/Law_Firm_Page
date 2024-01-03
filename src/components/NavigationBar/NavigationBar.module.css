@@ -12,6 +12,7 @@
     align-items: center;
     width: 431px;
     height: 26px;
+    flex-wrap: wrap;
 }
 
 a{
