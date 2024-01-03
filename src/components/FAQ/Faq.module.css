@@ -1,0 +1,60 @@
+.wrapper{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 150px;
+}
+
+.title{
+    text-align: start;
+    font-weight: 600;
+    font-size: 54px;
+}
+
+.container {
+    display: flex;
+}
+
+.content{
+    width: 557px;
+    text-align: start;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 30%;
+}
+
+.accheader{
+    font-weight: 600 !important;
+    font-size: 24px !important;
+
+}
+.accontent{
+    opacity: 30%;
+}
+
+/* .accordian{
+    background-color:  #1D1D1D !important;
+    color: white !important;
+    border-top: 1px solid  rgba(255, 255, 255, 0.3) ;
+  
+} */
+.accordian1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.accordian1content{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 30%;
+    text-align: start;
+    margin:20px 0px;
+}
+.accordianConatiner{
+    width: 564px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

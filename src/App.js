@@ -8,6 +8,7 @@ import ClientReviewSection from './components/ClientReviewSection/ClientReviewSe
 import TeamSection from './components/TeamSection/TeamSection';
 import NewsLetter from './components/NewsLetter/NewsLetter';
 import AreaofPractice from './components/AreaofPractice/AreaofPractice';
+import Faq from './components/FAQ/Faq';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <AreaofPractice/>
       <ClientReviewSection/>
       <TeamSection/>
+      <Faq/>
       <NewsLetter/>
       <Footer/>
     </div>
